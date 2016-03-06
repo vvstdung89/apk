@@ -1,0 +1,8 @@
+sync.sh : deploy project on server
+Usage
+	./sync.sh [project_name] init : copy project folder and init library
+        ./sync.sh [project_name] copy : copy project folder and restart project
+	./sync.sh [project_name] restart : restart project
+
+Note:
+	When create new project, add project folder in the sync.sh file (including run port)
